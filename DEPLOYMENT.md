@@ -55,41 +55,6 @@
 
 ---
 
-## Option 3: Local Ngrok (Quick Testing)
-
-For quick public access without full deployment:
-
-```bash
-pip install ngrok
-ngrok http 5000
-```
-
-This gives you a temporary public URL like `https://xxxx.ngrok.io`
-
----
-
-## Option 4: Heroku (Paid)
-
-1. Create Heroku account at https://heroku.com
-2. Install Heroku CLI
-3. Run:
-   ```bash
-   heroku create your-app-name
-   heroku config:set GEMINI_API_KEY=your_key_here
-   git push heroku main
-   ```
-
----
-
-## Important Security Notes
-
-✅ **DO NOT commit `.env` file to GitHub**
-✅ Store API keys in platform's environment variables
-✅ Use `FLASK_ENV=production` in production
-✅ Keep debug mode OFF in production
-
----
-
 ## After Deployment
 
 1. Test the live app thoroughly

@@ -1,8 +1,8 @@
-# Project Statement: Caption Crafter AI
+# Project Statement: Caption Generator AI
 
 ## Overview
 
-Caption Crafter AI is a simple and clean web application built with Flask. It creates short Instagram-style captions using Google’s Gemini API. You type a short description, choose a mood, and the app returns one caption. The goal is to keep the tool lightweight, fast, and easy to use.
+Caption Generator AI is a simple and clean web application built with Flask. It creates short Instagram-style captions using Google’s Gemini API. You type a short description, choose a mood, and the app returns one caption. The goal is to keep the tool lightweight, fast, and easy to use.
 
 This project also includes a fallback mode. If the API key is missing or the AI service fails, the app can still generate a basic mock caption so it never breaks.
 

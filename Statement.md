@@ -25,9 +25,8 @@ This project also includes a fallback mode. If the API key is missing or the AI 
 ## Technologies Used
 
 * **Flask** for the backend
-* **HTML + Jinja** for templates
+* **HTML** for templates
 * **Requests library** for API calls
-* **python-dotenv** for managing environment variables
 * **Render** for deployment
 * **Gemini API** as the caption engine
 
@@ -37,11 +36,9 @@ This application is hosted on Render’s free tier. Free instances shut down aft
 
 ## Project Structure
 
-* `app.py` – main application logic
-* `templates/index.html` – user interface
+* `project.py` – main application logic
+* `index.html` – user interface
 * `requirements.txt` – dependencies
-* `Procfile` (optional for deployment)
-* `.env` (not included in the repo) – stores the API key
 
 ## Key Strengths of the Project
 

@@ -1,6 +1,12 @@
 # Caption Generator AI
 I have created a small Flask web app that helps users to generate short Instagram captions using Google Gemini.The user is able to enter description of his/her post and choose a mood, and the app generates a short caption for them.
 
+## 📱 Demo Preview  
+
+
+<img width="1722" height="958" alt="image" src="https://github.com/user-attachments/assets/b2d50e50-ec3a-44d2-8393-fc68e640f725" />
+
+
 ## Features
 
 * This project uses clean and modern UI
